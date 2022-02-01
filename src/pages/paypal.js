@@ -9,7 +9,7 @@ function Paypal() {
 
   const product = {
     price: 100,
-    discription: 'Tela de Pagamento'
+    discription: 'Finalize o pagamento de: '
   }
   useEffect(() => {
     const script = document.createElement('script')
@@ -64,7 +64,7 @@ function Paypal() {
         ) : (
           <>
             <h1>
-              {product.discription} Por R${product.price}
+              {product.discription} R${product.price}
             </h1>
             <div ref={v => (paypalRef = v)} />
           </>

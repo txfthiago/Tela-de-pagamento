@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Main from '../src/pages/homePage'
+import Main from './pages/index'
 import Paypal from './pages/paypal'
 
 const AppRoutes = () => (
