@@ -105,3 +105,17 @@ form button:hover {
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
+
+@media (max-width: 680px)
+{ 
+    main.container{
+        margin: 3.75rem;
+    }
+
+    .App{
+        font-size: 0.6rem;
+        margin: 2.7rem;
+        text-align:center;
+    }
+}
+
